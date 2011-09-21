@@ -1,0 +1,28 @@
+Keystrokes Logger
+
+A dll and a consumer to record and log keystrokes in xml format.
+
+Created By:
+Sushant Khurana
+http://www.sukh.us
+sushant@sukh.us
+
+Project Description
+Win32-KeyStrokes is a C++ win32 dll and a testing code to log key presses and the applications on which the keystrokes are being pressed. 
+It has four exposed functions namely, StartLogging() and StopLogging(). GetAllKeyStrokes() and GetKeyStrokes(int time) returning xml strings.
+
+
+**C++ Win32 based DLL project **
+
+The DLL is pretty advanced and thought of and is a result of quite a few hours of brainstorming and testing. It's written in VC++.
+
+It has the following features-
+Logs the key inputs for any program
+Generates an xml as soon as the output is asked for.
+returns the timestamps and the application on which the keystrokes were recorded in the xml
+flushes the keystrokes as soon as the output is fetched via GetAllKeystrokes()
+
+
+the github page for the source code is available here: Win32-KeyStrokes on Github.
+
+
